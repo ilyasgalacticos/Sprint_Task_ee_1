@@ -10,7 +10,7 @@ import kz.biltlab.narxoz.db.Tasks;
 
 import java.io.IOException;
 
-@WebServlet(value = "/addTask")
+@WebServlet(value = "/addTask") // If your link contains 2 words, then you should write like 'add-task'
 public class TaskAddServlet extends HttpServlet {
 
   @Override
